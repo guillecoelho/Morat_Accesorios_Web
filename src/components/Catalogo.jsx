@@ -253,104 +253,128 @@ function Catalogo() {
 	return (
 		<div>
 			<div className="container">
-				<div className="flex justify-center text-5xl mx-40 mt-5 mb-10">
+				<div className="flex justify-center text-4xl mx-40 mt-5 mb-10">
 					Catálogo
 				</div>
 
 				<div className="mx-10 grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Estribo</div>
 						<CarouselFotos fotos={Collar23} />
 						<div className="text-2xl font-bold my-2">$300</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Choker Leaf</div>
 						<CarouselFotos fotos={Collar22} />
 						<div className="text-2xl font-bold my-2">$250</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Line Choker</div>
 						<CarouselFotos fotos={Collar21} />
 						<div className="text-2xl font-bold my-2">$350</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar20} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Choker Hoop</div>
 						<CarouselFotos fotos={Collar19} />
 						<div className="text-2xl font-bold my-2">$250</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Locket</div>
 						<CarouselFotos fotos={Collar18} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Cross Choker</div>
 						<CarouselFotos fotos={Collar17} />
 						<div className="text-2xl font-bold my-2">$350</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Cross Choker</div>
 						<CarouselFotos fotos={Collar16} />
 						<div className="text-2xl font-bold my-2">$350</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Choker Bri</div>
 						<CarouselFotos fotos={Collar15} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Doble Estribo</div>
 						<CarouselFotos fotos={Collar14} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín Especial</div>
 						<CarouselFotos fotos={Collar9} />
 						<div className="text-2xl font-bold my-2">$450</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín Especial</div>
 						<CarouselFotos fotos={Collar10} />
 						<div className="text-2xl font-bold my-2">$450</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar11} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Line Choker</div>
 						<CarouselFotos fotos={Collar12} />
 						<div className="text-2xl font-bold my-2">$350</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Tie</div>
 						<CarouselFotos fotos={Collar13} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar6} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar7} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Line Choker</div>
 						<CarouselFotos fotos={Collar8} />
 						<div className="text-2xl font-bold my-2">$350</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar5} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar4} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Line Choker</div>
 						<CarouselFotos fotos={Collar3} />
 						<div className="text-2xl font-bold my-2">$350</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar1} />
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Estribo</div>
 						<CarouselFotos fotos={Collar2} />
 						<div className="text-2xl font-bold my-2">$300</div>
 					</div>
 					<div className="flex flex-col items-center py-5">
+						<div className="text-2xl font-bold my-2">Basic Borlas</div>
 						<img
 							src="/Collares/Collar4.jpeg"
 							alt=""
@@ -359,6 +383,7 @@ function Catalogo() {
 						<div className="text-2xl font-bold my-2">$300</div>
 					</div>
 					<div className="flex flex-col items-center py-5">
+						<div className="text-2xl font-bold my-2">Joker</div>
 						<img
 							src="/Collares/Collar8.jpeg"
 							alt=""
@@ -367,6 +392,7 @@ function Catalogo() {
 						<div className="text-2xl font-bold my-2">$300</div>
 					</div>
 					<div className="flex flex-col items-center py-5">
+						<div className="text-2xl font-bold my-2">Estribo</div>
 						<img
 							src="/Collares/Collar10.jpeg"
 							alt=""
