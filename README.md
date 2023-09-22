@@ -2,15 +2,20 @@
 
 ### How to setup?
 
+npm install
+
 Vite
+
 - npm init vite
 
 Tailwind CSS
+
 - npm install -D tailwindcss postcss autoprefixer
-(Inicializo Tailwind)
+  (Inicializo Tailwind)
 - npx tailwindcss init -p
 
 React icons
+
 - npm i react-icons
 
 ### How to run it?

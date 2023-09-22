@@ -250,6 +250,51 @@ function Catalogo() {
 		},
 	];
 
+	var Collar24 = [
+		{
+			url: '/Collares/Collar71.jpg',
+		},
+		{
+			url: '/Collares/Collar72.jpg',
+		},
+		{
+			url: '/Collares/Collar69.jpg',
+		},
+		{
+			url: '/Collares/Collar70.jpg',
+		},
+	];
+
+	var Collar25 = [
+		{
+			url: '/Collares/Collar77.jpg',
+		},
+		{
+			url: '/Collares/Collar78.jpg',
+		},
+		{
+			url: '/Collares/Collar79.jpg',
+		},
+		{
+			url: '/Collares/Collar76.jpg',
+		},
+		{
+			url: '/Collares/Collar80.jpg',
+		},
+	];
+
+	var Collar26 = [
+		{
+			url: '/Collares/Collar74.jpg',
+		},
+		{
+			url: '/Collares/Collar75.jpg',
+		},
+		{
+			url: '/Collares/Collar73.jpg',
+		},
+	];
+
 	return (
 		<div>
 			<div className="container">
@@ -258,6 +303,21 @@ function Catalogo() {
 				</div>
 
 				<div className="mx-10 grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Corbatín</div>
+						<CarouselFotos fotos={Collar25} />
+						<div className="text-2xl font-bold my-2">$400</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Collar Star</div>
+						<CarouselFotos fotos={Collar24} />
+						<div className="text-2xl font-bold my-2">$600</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Estribo</div>
+						<CarouselFotos fotos={Collar26} />
+						<div className="text-2xl font-bold my-2">$600</div>
+					</div>
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-2">Estribo</div>
 						<CarouselFotos fotos={Collar23} />
