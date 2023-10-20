@@ -295,6 +295,129 @@ function Catalogo() {
 		},
 	];
 
+	var Collar27 = [
+		{
+			url: '/Collares/Collar81.jpg',
+		},
+		{
+			url: '/Collares/Collar82.jpg',
+		},
+	];
+
+	var Collar28 = [
+		{
+			url: '/Collares/Collar86.jpg',
+		},
+		{
+			url: '/Collares/Collar84.jpg',
+		},
+	];
+
+	var Collar29 = [
+		{
+			url: '/Collares/Collar88.jpg',
+		},
+		{
+			url: '/Collares/Collar89.jpg',
+		},
+		{
+			url: '/Collares/Collar87.jpg',
+		},
+	];
+
+	var Collar30 = [
+		{
+			url: '/Collares/Collar90.jpg',
+		},
+		{
+			url: '/Collares/Collar91.jpg',
+		},
+		{
+			url: '/Collares/Collar92.jpg',
+		},
+	];
+
+	var Collar31 = [
+		{
+			url: '/Collares/Collar94.jpg',
+		},
+		{
+			url: '/Collares/Collar93.jpg',
+		},
+	];
+
+	var Collar32 = [
+		{
+			url: '/Collares/Collar97.jpg',
+		},
+		{
+			url: '/Collares/Collar98.jpg',
+		},
+		{
+			url: '/Collares/Collar96.jpg',
+		},
+	];
+
+	var Collar33 = [
+		{
+			url: '/Collares/Collar99.jpg',
+		},
+		{
+			url: '/Collares/Collar100.jpg',
+		},
+	];
+
+	var Collar34 = [
+		{
+			url: '/Collares/Collar101.jpg',
+		},
+		{
+			url: '/Collares/Collar102.jpg',
+		},
+	];
+
+	var Collar35 = [
+		{
+			url: '/Collares/Collar103.jpg',
+		},
+		{
+			url: '/Collares/Collar104.jpg',
+		},
+	];
+
+	var Collar36 = [
+		{
+			url: '/Collares/Collar105.jpg',
+		},
+		{
+			url: '/Collares/Collar106.jpg',
+		},
+	];
+
+	var Collar37 = [
+		{
+			url: '/Collares/Collar107.jpg',
+		},
+		{
+			url: '/Collares/Collar108.jpg',
+		},
+		{
+			url: '/Collares/Collar109.jpg',
+		},
+	];
+
+	var Collar38 = [
+		{
+			url: '/Collares/Collar110.jpg',
+		},
+		{
+			url: '/Collares/Collar111.jpg',
+		},
+		{
+			url: '/Collares/Collar112.jpg',
+		},
+	];
+
 	return (
 		<div>
 			<div className="container">
@@ -303,6 +426,77 @@ function Catalogo() {
 				</div>
 
 				<div className="mx-10 grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar de Piedra</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar32} />
+						<div className="text-2xl font-bold my-2">$520</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar de Piedra</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar30} />
+						<div className="text-2xl font-bold my-2">$520</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar de Piedra</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar29} />
+						<div className="text-2xl font-bold my-2">$520</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar de Piedra</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar31} />
+						<div className="text-2xl font-bold my-2">$520</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar de Piedra</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar27} />
+						<div className="text-2xl font-bold my-2">$520</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Mini Tie de Piedras</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar35} />
+						<div className="text-2xl font-bold my-2">$400</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Choker de Piedra</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar34} />
+						<div className="text-2xl font-bold my-2">$480</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar Glow</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<CarouselFotos fotos={Collar37} />
+						<div className="text-2xl font-bold my-2">$400</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar Glow</div>
+						<div className="text-rose-700">Nuevo ingreso!</div>
+						<div className="opacity-60 hover:opacity-100">
+							<CarouselFotos fotos={Collar38} />
+						</div>
+						<div className="text-2xl font-bold my-2">$400</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Locket</div>
+						<CarouselFotos fotos={Collar36} />
+						<div className="text-2xl font-bold my-2">$280</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Choker Line</div>
+						<CarouselFotos fotos={Collar33} />
+						<div className="text-2xl font-bold my-2">$350</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-2">Choker Line</div>
+						<CarouselFotos fotos={Collar28} />
+						<div className="text-2xl font-bold my-2">$350</div>
+					</div>
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-2">Corbatín</div>
 						<CarouselFotos fotos={Collar25} />
@@ -340,13 +534,15 @@ function Catalogo() {
 					</div>
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-2">Choker Hoop</div>
-						<CarouselFotos fotos={Collar19} />
+						<div className="opacity-60 hover:opacity-100">
+							<CarouselFotos fotos={Collar19} />
+						</div>
 						<div className="text-2xl font-bold my-2">$250</div>
 					</div>
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-2">Locket</div>
 						<CarouselFotos fotos={Collar18} />
-						<div className="text-2xl font-bold my-2">$400</div>
+						<div className="text-2xl font-bold my-2">$280</div>
 					</div>
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-2">Cross Choker</div>
