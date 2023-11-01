@@ -418,6 +418,36 @@ function Catalogo() {
 		},
 	];
 
+	var Collar39 = [
+		{
+			url: '/Collares/Collar113.jpg',
+		},
+		{
+			url: '/Collares/Collar114.jpg',
+		},
+		{
+			url: '/Collares/Collar115.jpg',
+		},
+	];
+
+	var Collar40 = [
+		{
+			url: '/Collares/Collar116.JPG',
+		},
+		{
+			url: '/Collares/Collar117.JPG',
+		},
+	];
+
+	var Collar41 = [
+		{
+			url: '/Collares/Collar118.jpg',
+		},
+		{
+			url: '/Collares/Collar119.jpg',
+		},
+	];
+
 	return (
 		<div>
 			<div className="container">
@@ -426,6 +456,21 @@ function Catalogo() {
 				</div>
 
 				<div className="mx-10 grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Collar de Piedra</div>
+						<CarouselFotos fotos={Collar40} />
+						<div className="text-2xl font-bold my-2">$400</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Corbatín</div>
+						<CarouselFotos fotos={Collar41} />
+						<div className="text-2xl font-bold my-2">$400</div>
+					</div>
+					<div className="flex flex-col items-center">
+						<div className="text-2xl font-bold my-1">Corbatín</div>
+						<CarouselFotos fotos={Collar39} />
+						<div className="text-2xl font-bold my-2">$400</div>
+					</div>
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-1">Collar de Piedra</div>
 						<div className="text-rose-700">Nuevo ingreso!</div>
@@ -471,7 +516,9 @@ function Catalogo() {
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-1">Collar Glow</div>
 						<div className="text-rose-700">Nuevo ingreso!</div>
-						<CarouselFotos fotos={Collar37} />
+						<div className="opacity-60 hover:opacity-100">
+							<CarouselFotos fotos={Collar37} />
+						</div>
 						<div className="text-2xl font-bold my-2">$400</div>
 					</div>
 					<div className="flex flex-col items-center">
@@ -484,7 +531,9 @@ function Catalogo() {
 					</div>
 					<div className="flex flex-col items-center">
 						<div className="text-2xl font-bold my-2">Locket</div>
-						<CarouselFotos fotos={Collar36} />
+						<div className="opacity-60 hover:opacity-100">
+							<CarouselFotos fotos={Collar36} />
+						</div>
 						<div className="text-2xl font-bold my-2">$280</div>
 					</div>
 					<div className="flex flex-col items-center">
